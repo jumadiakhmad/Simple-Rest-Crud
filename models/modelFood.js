@@ -3,8 +3,7 @@ var Schema = mongoose.Schema;
 
 var foodSchema = new Schema({
   name : String,
-  owner : String,
-  addres : String
+  price : Number,
 })
 var Foods = mongoose.model('Foods', foodSchema);
 
