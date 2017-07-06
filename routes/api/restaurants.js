@@ -5,7 +5,7 @@ var restaurantController = require('../../controllers/restaurantController');
 router.get('/', restaurantController.getAll);
 router.get('/:id', restaurantController.getSingle);
 router.post('/', restaurantController.createRestaurant);
-router.put('/:id', restaurantController.updateRestaurant);
-router.delete('/:id', restaurantController.deleteRestaurant);
+//router.put('/:id', restaurantController.updateRestaurant);
+//router.delete('/:id', restaurantController.deleteRestaurant);
 
 module.exports = router;

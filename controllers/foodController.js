@@ -21,25 +21,6 @@ function getSingle(req, res) {
   })
 }
 
-// function createFood(req,res) {
-//   // Foods.create({
-//   // }, function(err,data){
-//   //
-//   //   if(err) {
-//   //     res.send(err.message)
-//   //   }
-//   //   console.log('Insert Data Food Success');
-//   //   res.send(data);
-//   // })
-//   Foods.create({
-//
-//   } (err,result) => {
-//     if(err) res.status(500).send(err.message);
-//     console.log("Create Data Foods Success");
-//     ress.send(result);
-//   })
-// }
-
 function createFood(req, res) {
   Foods.create({
     name  : req.body.name,
